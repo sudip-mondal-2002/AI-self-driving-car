@@ -1,0 +1,5 @@
+*.pth
+.buildozer/
+__pycache__/
+bin/
+*.spec
