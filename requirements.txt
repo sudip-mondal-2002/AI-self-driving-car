@@ -1,4 +1,4 @@
 ﻿Kivy==2.0.0
 matplotlib==3.4.3
 numpy==1.22.0
-torch==1.9.0
+torch==2.2.0
