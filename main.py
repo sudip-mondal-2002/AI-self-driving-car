@@ -36,11 +36,16 @@ scores = []
 
 # Initializing the map
 first_update = True
+longueur = 1000  # Default width
+largeur = 800   # Default height
+
 def init():
     global sand
     global goal_x
     global goal_y
     global first_update
+    global longueur
+    global largeur
     sand = np.zeros((longueur,largeur))
     goal_x = 20
     goal_y = largeur - 20
